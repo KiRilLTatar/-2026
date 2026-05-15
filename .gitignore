@@ -1,0 +1,94 @@
+# Dependencies
+node_modules/
+*/node_modules/
+vendor/
+
+# Frontend build output
+dist/
+dist-ssr/
+build/
+out/
+coverage/
+.vite/
+.vite-inspect/
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.svelte-kit/
+*.tsbuildinfo
+*.local
+.eslintcache
+
+# Package manager cache and logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Environment files
+.env
+.env.*
+!.env.example
+!.env.local.example
+
+# Logs and runtime files
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Docker/local runtime artifacts
+docker-compose.override.yml
+mysql_data/
+tmp/
+temp/
+
+# PHP/tooling cache
+.phpunit.cache/
+.php-cs-fixer.cache
+.phpstan/
+.psalm/
+
+# Codex and AI assistant local files
+.codex/
+.agents/
+.mcp/
+.aider*
+.claude/
+.cursor/
+codex*.log
+*.codex.log
+
+# IDE/editor files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+desktop.ini
+$RECYCLE.BIN/
+
+# Local archives and temporary exports
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*.bak
+*.tmp
+~$*
